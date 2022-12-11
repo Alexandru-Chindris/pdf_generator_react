@@ -1,0 +1,29 @@
+.container{
+    padding: 30px;
+    text-align: center;
+}
+.input{
+    width: 250px;
+    height: 20px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Poor Story', cursive;
+    margin-bottom: 9px;
+    text-transform: lowercase;
+}
+.input::placeholder{
+    text-align: center;
+}
+.submit{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: aquamarine;
+}
+.submit:hover{
+    background-color: aliceblue;
+    border: 0.5px solid black;
+}
